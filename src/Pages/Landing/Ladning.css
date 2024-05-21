@@ -1,0 +1,409 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --blue--: #10278F;
+    --orange--: #FF6600;
+}
+
+/* Start Design Carusol  */
+.carousel slide {
+    width: 100%;
+    height: 100vh;
+}
+
+.hero-landing {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0 0 0 0;
+}
+
+.hero-landing img {
+    width: 100%;
+    height: 100vh;
+}
+
+/* End Design Carsoul  */
+
+/* Design Next Match Page  */
+.next-match {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.next {
+    background-color: white;
+    width: 600px;
+    height: 100%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px grey;
+    transform: translate(0px, -85px);
+}
+
+.next .col-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--blue--);
+    margin-left: 15px;
+}
+
+.vs {
+    display: flex;
+    flex-direction: column;
+    color: var(--blue--);
+}
+
+.vs p {
+    width: 100%;
+    height: 10px;
+    margin: 0px 10px 35px 0px;
+
+}
+
+.vs h1 {
+    width: 100%;
+    height: 60px;
+    margin-left: 20px;
+    color: var(--orange--);
+}
+
+.vs h5 {
+    margin-left: 8px;
+}
+
+/* End Design Next Match Page  */
+
+/* Design Last News Page  */
+.last-news {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.last-p {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.last {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.last1,
+.last2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.last1-img1 {
+    width: 54%;
+}
+
+.last1-img2 {
+    width: 37%;
+    height: 91%;
+}
+
+.last2-img1 {
+    width: 37%;
+    height: 91%;
+}
+
+.last2-img2 {
+    width: 54%;
+}
+
+/* End Design LAst News Page  */
+
+
+/* Design MAtch Time  */
+.next-match1 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    direction: rtl;
+
+}
+
+.next-p {
+    width: 90%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.next-img {
+    width: 100%;
+    height: 207px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.next-img {
+    margin-right: 20px;
+}
+
+.next-img img {
+    margin-right: 65px;
+}
+
+/* End Design MAtch Time  */
+/* Design Champion Page  */
+.champion {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cham-p {
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.cham-img {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.cham-img h3 {
+    color: gray;
+}
+
+.cham1,
+.cham2,
+.cham3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* End Design Champion Page  */
+/* Design  Goal Page  */
+.goal {
+    width: 100%;
+    height: 594px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.goal-p {
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.final-Landing {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.imgs-Landing {
+    width: 466px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+.imgs-Landing .one-Landing,
+.two-Landing,
+.three-Landing {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-shadow: 5px 5px 10px gray;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 0;
+}
+
+.imgs-LAnding .show-Landing {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.show-Ladning .views {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.show-Landing .views .eye {
+    width: 80px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.show-Landing .views img {
+    width: 12px;
+    height: 8px;
+    margin-top: 3px;
+}
+
+
+.show-Landing .views h6 {
+    width: 66px;
+    height: 20px;
+    color: gray;
+    font-size: 10px;
+    direction: rtl;
+}
+
+.show-Ladning .views h6.h6 {
+    width: 51px;
+    height: 20px;
+    color: gray;
+    font-size: 10px;
+    direction: rtl;
+}
+
+.final-Landing .video {
+    width: 736px;
+    height: 100%;
+    background-image: url(../../Assets/ImgLanding/video.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    order: -1;
+}
+
+.video .video-player {
+    width: 100%;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.video .video-player h5 {
+    margin-left: 20px;
+}
+
+.video-player .afc {
+    width: 8%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.video-player .afc img {
+    width: 24px;
+    height: 24px;
+}
+
+.video .h4 {
+    width: 490px;
+    height: 20px;
+    color: white;
+
+}
+
+.video .click {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video .click img {
+    width: 85px;
+    height: 85px;
+}
+
+.video .up-next {
+    width: 738px;
+    height: 160px;
+}
+
+.video .up-next h4 {
+    color: white;
+    margin-left: 20px;
+}
+
+.video .suggestions {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.video .suggestions div {
+    width: 169px;
+    height: 80px;
+    margin-left: 10px;
+}
+
+.video .control {
+    width: 100%;
+    height: 31px;
+    margin-left: 5px;
+}
+
+/* End Design  Goal Page  */

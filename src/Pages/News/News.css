@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Design Header Page  */
+.header-news {
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar {
+    background-color: #FFF;
+    height: 10%;
+}
+
+.navbar-nav li .nav-link.active {
+    color: #F60;
+}
+
+.navbar-nav li a {
+    color: #10278F;
+    font-family: Cairo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-inline: 32px;
+}
+
+.logo {
+    margin-left: 3%;
+}
+
+.navbar-nav {
+    margin-right: 3%;
+}
+
+.carousel {
+    width: 100%;
+    height: 75%;
+}
+
+.imgs {
+    width: 1200px;
+    height: 744px;
+}
+
+.carousel-indicators {
+    position: relative;
+    /* bottom: -108px; */
+    /* left: 37%; */
+    transform: translateY(110px);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.carousel-indicators li {
+    position: absolute;
+    top: 85px;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    background-color: #bebdbd;
+    border-radius: 50%;
+    border: 2px solid #FFF;
+
+}
+
+.carousel-indicators.active li {
+    background-color: #FFF;
+}
+
+.carousel-indicators li {
+    list-style-type: none;
+}
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: border-box !important;
+}
+
+.carousel-caption {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 32.81%, rgba(0, 0, 0, 0.50) 64.58%);
+    width: 100%;
+    height: 195px;
+    margin-left: -15%;
+    transform: translateY(20px);
+}
+
+.carousel-item h5 {
+    color: #FFF;
+    font-family: Cairo;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+    margin-left: 19%;
+    transform: translateY(-10px);
+}
+
+.carousel-item p {
+    color: #FFF;
+    font-family: Cairo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    padding: 0 20px 0 0px;
+    margin-left: 17%;
+    width: 83vw;
+    transform: translateY(-10px);
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: 3%;
+    height: 110%;
+    align-items: center;
+}
+
+/* End Design Hero Page */
+
+/* Design Hero Page */
+
+.hero-news {
+    height: 120vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.row-news {
+    height: 120vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.left-news {
+    width: 70%;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.first-left-news {
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+
+.card1-news,
+.card2-news,
+.card3-news,
+.card0 {
+    width: 48%;
+    margin-left: 1.2%;
+    height: 300px;
+    margin-top: 1%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: transparent;
+}
+
+.card1-news {
+    background-image: url(../../Assets/ImgNews/NewsCard1.png);
+    background-size: cover;
+    background-position: right 2px bottom;
+}
+
+.card2-news {
+    background-image: url(../../Assets/ImgNews/NewsCard\ 2.png);
+    background-size: cover;
+    background-position: right 2px center;
+}
+
+.card3-news {
+    background-image: url(../../Assets/ImgNews/NewsCard\ 2.png);
+    background-size: cover;
+    background-position: right 2px bottom;
+}
+
+.first-right-news {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    margin-top: .5%;
+}
+
+.end-left-news {
+    width: 97.8%;
+    margin-left: 1%;
+    margin-top: 2%;
+    height: 65vh;
+    background-image: url(../../Assets/ImgNews/NewsCard\ \(4\).png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: transparent;
+    background-position: right 2px bottom;
+}
+
+.content-news {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+    margin-right: 5px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 32.81%, rgba(0, 0, 0, 0.50) 64.58%);
+}
+
+.content-news p {
+    color: #FFF;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.right-news {
+    background-color: #C0C0C0;
+    height: 118vh;
+    width: 29%;
+    display: flex;
+    transform: translateY(10px);
+    flex-direction: column;
+}
+
+.right-content-news {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    height: 45vh;
+}
+
+.right-content-news p {
+    color: #000;
+    font-family: Cairo;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+
+.img-content1-news {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img-content1-news img {
+    width: 327px;
+    height: 200px;
+}
+
+.txt-news {
+    color: #000;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    padding-left: 80px;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.icon-news {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 100%;
+}
+
+.svg-icon-news {
+    width: 30px;
+    height: 30px;
+    background-image: url(../../Assets/ImgNews/chevron-right.svg);
+    transform: translateY(20px);
+}
+
+.end-right-news {
+    width: 70%;
+    height: 12vh;
+    margin-left: 24%;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.end.txt-news {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#one-news {
+    color: #212121;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 130%;
+    text-transform: capitalize;
+    margin-right: 6px;
+    margin-top: 18px;
+}
+
+#two-news {
+    color: #808080;
+    text-align: right;
+    font-family: "Sofia Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-right: 12px;
+}
+
+.end-img-news {
+    width: 40%;
+    margin-right: -30px;
+}
+
+.end-img-news img {
+    width: 80px;
+    height: 80px;
+}
+
+
+/* End Design Hero Page */

@@ -1,0 +1,514 @@
+/* Start Design History Page  */
+.history {
+    width: 100%;
+    height: 580vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.history .row {
+    margin: 0;
+}
+
+.main-page {
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.main-page .left {
+    height: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.parent-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.btn-history {
+    width: 100%;
+    display: flex;
+    /* justify-content: flex-end; */
+    padding-left: 27%;
+    margin-bottom: 100px;
+}
+
+.main-page .right {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rec {
+    height: 482px;
+    background-color: #F4AA5FE5;
+    transform: translate(66px, -20px);
+}
+
+.rec-img {
+    height: 761px;
+    background-image: url(../../Assets/ImgHistory/bb.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    z-index: 500;
+    margin-top: 20px;
+}
+
+.mini-circle {
+    width: 740px;
+    height: 40px;
+    margin-left: 320px;
+    transform: translateY(40px);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    animation-name: go-left;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+}
+
+.mini-circle .circle1 {
+    margin-left: 18px;
+}
+
+.multi-circle {
+    margin-top: 420px;
+    width: 100px;
+    height: 400px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    animation-name: fall-down;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+}
+
+.circle1 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #F4AA5FE5;
+    margin-left: 10px;
+}
+
+.main-page .right .text {
+    height: 100%;
+    color: var(--dark, #3C3732);
+    font-family: Cairo;
+    font-size: 66px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 150px;
+    z-index: 200;
+}
+
+.main-page .right .rec2 {
+    background-color: #F4AA5FE5;
+    height: 450px;
+    transform: translate(-130px, 10px);
+}
+
+
+/* End Design History Page  */
+
+
+/* Design Slider */
+.hero-history {
+    height: 1114px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #FAFAFA;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.hero-history h2 {
+    color: var(--orangeColor);
+    /* العنوان 1 كايرو 64 */
+    font-family: Cairo;
+    margin-top: -30px;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.swiper-pagination-bullet {
+    width: 50px !important;
+    height: 50px !important;
+    border: 5px solid blue !important;
+    background-color: transparent !important;
+
+}
+
+.swiper-pagination-bullet-active {
+    background-color: blue !important;
+}
+
+.bord {
+    border-radius: 12px;
+    background: var(--background, #FEFEFE);
+    transform: translateY(0) !important;
+    height: 846px;
+    box-shadow: 0px 16px 25.5px 0px rgba(0, 0, 0, 0.25);
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 6px solid #F4AA5F;
+}
+
+.slider {
+    width: 96%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    border-radius: 16px;
+    padding: 0;
+}
+
+.slider-img {
+    height: 530px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: relative;
+}
+
+.slider-img img {
+    width: 100%;
+    height: 100%;
+    z-index: 200;
+}
+
+.slider-img::after {
+    content: "";
+    width: 30%;
+    height: 98%;
+    background-color: #F4AA5F;
+    position: absolute;
+    right: -65px;
+    /* left: 500px; */
+    top: 17px;
+    transform: rotateX(20deg) rotateY(344deg) rotateZ(0deg);
+}
+
+.slider-img .btn0 {
+    margin-right: 63px;
+}
+
+.slider-text {
+    height: 530px;
+    padding-top: 60px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.slider-text h4 {
+    color: #F60;
+    /* العنوان 1 كايرو 64 */
+    font-family: Cairo;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.slider-text p {
+    color: #000;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 50px;
+}
+
+.circle-bord {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cricle-btn,
+.cricle-btn1 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 6px solid #10278F;
+    margin-left: 35px;
+    cursor: pointer;
+}
+
+.cricle-btn1 {
+    background-color: #10278F;
+}
+
+/* End Design Slider */
+
+/* Start Design Champion Page  */
+.botolat {
+    width: 100%;
+    height: 580vh;
+    margin-top: 50px;
+    background-color: #FAFAFA;
+    padding: 10px;
+}
+
+.top-bo h2 {
+    color: #F60;
+    font-size: 50px;
+    text-align: center;
+    margin: 40px 0;
+    font-weight: bold;
+}
+
+.pii {
+    width: 100%;
+    height: 18%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+    color: white;
+}
+
+.pii a {
+    color: white;
+    font-size: 60px;
+}
+
+.left-box {
+    text-align: left;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.right-box {
+    text-align: right;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    padding-top: 10px;
+    padding-right: 50px;
+}
+
+.pi {
+    background-color: #194E95;
+    color: #F6F6F6;
+    width: 40%;
+    height: 120px;
+
+    /* border-radius: 4px; */
+}
+
+.pi2 {
+    background-color: #194E95;
+    color: #F6F6F6;
+    width: 20%;
+    height: 120px;
+    padding-top: 10px;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.pi2 a {
+    color: black;
+}
+
+.pi2 {
+    background-color: #F6F6F6;
+    color: black;
+}
+
+.pii a {
+    text-decoration: none;
+}
+
+.bot {
+    width: 100%;
+    height: 275vh;
+    background-color: #F6F6F6;
+}
+
+.rf {
+    width: 100%;
+    height: 250vh;
+}
+
+.one-history,
+.two-history {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.year-text {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.year {
+    background-color: #194E95;
+    color: #F6F6F6;
+    width: 180px;
+    height: 70px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 47px;
+    margin-right: -620px;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.year-text p {
+    font-size: 40px;
+    text-align: right;
+}
+
+.gold {
+    width: 20%;
+    height: 65%;
+    background-color: #194E95;
+}
+
+.gold img {
+    width: 80%;
+    height: 110%;
+    margin-left: 50px;
+    margin-top: -30px;
+}
+
+.two-left {
+    width: 50%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -34px;
+}
+
+.two-left img {
+    margin-top: 45px;
+}
+
+.two-left :last-child {
+    margin-top: 70px;
+}
+
+.two-right {
+    width: 50%;
+    height: 100%;
+    margin-top: -20px;
+    padding-left: 30px;
+}
+
+.two-right img {
+    width: 93%;
+}
+
+/* End Design Champion Page  */
+
+/* Start Design Video Page  */
+.video-page {
+    width: 100%;
+    height: 220vh;
+    margin: 0;
+    padding: 0;
+    margin-top: 100px;
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.video-page h2 {
+    color: var(--orangeColor);
+    /* العنوان 1 كايرو 64 */
+    font-family: Cairo;
+    margin-top: 30px;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.video-row {
+    width: 100%;
+    height: 170vh;
+    margin: 0;
+    margin-top: 100px;
+    background-image: url(../../Assets/ImgHistory/vvideo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* End Design Video Page  */
+
+/* Start Animation  */
+
+
+@keyframes fall-down {
+    from {
+        margin-top: 0px;
+    }
+
+    to {
+        margin-top: 420px;
+        transition: .5s;
+    }
+}
+
+@keyframes go-left {
+    from {
+        margin-left: 0px;
+    }
+
+    to {
+        margin-left: 320px;
+        transition: .5s;
+    }
+}
+
+/* End Animation  */

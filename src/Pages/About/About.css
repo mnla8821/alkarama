@@ -1,0 +1,1130 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+
+
+/* Global Variable  */
+:root {
+    --orangeColor: #F60;
+    --seconedColor: #FFF;
+    --thirdColor: #10278F;
+}
+
+/* First page  */
+.main-img {
+    background-image: url(../../Assets/ImgAbout/main2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* End First Page  */
+
+/* Design Slider */
+.hero-About {
+    height: 120vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.row-About {
+    width: 100%;
+}
+
+.hero-About h2 {
+    color: var(--orangeColor);
+    /* العنوان 1 كايرو 64 */
+    font-family: Cairo;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.bord-about {
+    border-radius: 12px;
+    border: 6px solid #F4AA5F;
+    background: var(--background, #FEFEFE);
+    height: 846px;
+    box-shadow: 0px 16px 25.5px 0px rgba(0, 0, 0, 0.25);
+    transform: translateY(-91px);
+}
+
+
+.slider-about {
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+}
+
+.slider-img-about {
+    width: 40%;
+    height: 530px;
+    background-image: url(../../Assets/ImgAbout/3_14\ 1.png);
+    background-position: center 2px top !important;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    z-index: 1000;
+}
+
+
+.slider-text-about {
+    width: 60%;
+    height: 530px;
+    padding-top: 60px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+.slider-text-about h4 {
+    padding-right: 7px;
+    color: #F60;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 37.311px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.slider-text-about p {
+    padding-right: 17px;
+    color: var(--dark, #3C3732);
+    text-align: right;
+    font-family: Cairo;
+    font-size: 34.547px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btn0 {
+    padding-right: 17px;
+    width: 319.253px;
+    height: 93.014px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 29.079px;
+    flex-shrink: 0;
+    margin: 0;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+.btn0:hover {
+    border: 2px solid white;
+    box-shadow: 2px 2px 5px #888;
+    border-radius: 12px;
+    background-color: #FFF;
+    transition: .1s;
+
+}
+
+.btn0 p {
+    color: #737A80;
+    font-family: Inter;
+    font-size: 30.772px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 60%;
+    margin-left: 35%;
+}
+
+.btn0 img {
+    width: 30%;
+    height: 93px;
+    padding-right: 20%;
+    position: absolute;
+}
+
+.btn0 img:not(:hover) {
+    animation-name: not-hidden-show;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+.btn0 img:hover {
+    animation-name: hidden-show;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+.circle0 {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cricle-btn,
+.cricle-btn1 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 6px solid #10278F;
+    margin-left: 35px;
+    cursor: pointer;
+}
+
+.cricle-btn1 {
+    background-color: #10278F;
+}
+
+/* End Design Slider */
+
+/* Start Boss Page  */
+.boss {
+    width: 100%;
+    height: 814px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #FAFAFA;
+    margin-bottom: 40px;
+}
+
+
+.boss h2 {
+    color: var(--orange-logo, #F60);
+    font-family: Cairo;
+    margin-top: 10px;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    height: 100px;
+}
+
+.boss-info {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 80px 0 0 0;
+    height: 505px;
+    padding: 0 10px 0 10px;
+}
+
+.boss-img {
+    width: 90%;
+    height: 100%;
+    border: 15px solid #10278F;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.boss-img .left {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.boss-img .right {
+    background-color: #10278F;
+    width: 48%;
+    height: 97%;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.boss-img .right img {
+    width: 106%;
+    height: 620px;
+    transform: translateY(-145px);
+
+}
+
+.boss-img .left h3 {
+    color: var(--dark, #3C3732);
+    font-family: Cairo;
+    font-size: 84.003px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0 30px;
+}
+
+.boss-img .left h4 {
+    color: var(--dark, #3C3732);
+    font-family: Cairo;
+    font-size: 56.002px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* End Boss Page  */
+
+/* Start Design Coach */
+.coach {
+    width: 100%;
+    height: 1793px;
+    margin: 0 0 40px 0;
+    padding: 0;
+}
+
+.coach .row {
+    width: 100%;
+    height: 1793px;
+    background-color: #FAFAFA;
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+}
+
+.coach h2 {
+    color: var(--orange-logo, #F60);
+    font-family: Cairo;
+    margin-top: 70px;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    height: 100px;
+}
+
+.coach-info {
+    width: 100%;
+    height: 1555px;
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.card-coach {
+    width: 30%;
+    height: 490px;
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+    color: transparent;
+}
+
+.card-coach:hover {
+    width: 31%;
+    height: 700px;
+    color: #10278F;
+    transition: .3s;
+    box-shadow: 2px 2px 5px #888;
+    border-radius: 10px;
+}
+
+.img-coach {
+    width: 70%;
+    height: 570px;
+    background-color: #10278fdc;
+    position: relative;
+    margin-left: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* overflow: hidden; */
+}
+
+
+.img-coach img {
+    z-index: 200;
+    transform: translate(-18px, -20px);
+}
+
+.img-coach::before {
+    content: "";
+    width: 20px;
+    height: 50%;
+    background-color: #10278fdc;
+    position: absolute;
+    left: -25px;
+    top: 0;
+}
+
+.img-coach::after {
+    content: "";
+    width: 5px;
+    height: 50%;
+    background-color: white;
+    position: absolute;
+    left: -5px;
+    top: 0;
+}
+
+.name-coach {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    font-size: 35px;
+    padding-top: 7px;
+}
+
+/* End Design Coach Page */
+
+/* Design Players Page  */
+
+
+.players {
+    height: 1251px;
+    width: 100%;
+    background: #FAFAFA;
+}
+
+.players .row-About {
+    height: 1251px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.players h2 {
+    color: var(--dark, #3C3732);
+    margin-top: 60px;
+    font-family: Cairo;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    height: 130px;
+}
+
+.row-About {
+    width: 100%;
+}
+
+.rectangle {
+    width: 1000px !important;
+    height: 135px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 70px;
+}
+
+.rec-child {
+    width: 260px;
+    height: 58.209px;
+    flex-shrink: 0;
+    background: var(--photo, #9AACC2);
+    border-radius: 16px;
+}
+
+.team-players {
+    width: 1260px;
+    height: 675px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0;
+}
+
+.card-player-About {
+    width: 26% !important;
+    height: 535px;
+    background-color: #194E95;
+    background-image: url(../../Assets/ImgAbout/player1.png);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+}
+
+.middle {
+    margin-top: 140px;
+    background-image: url(../../Assets/ImgAbout/player2.png);
+}
+
+.info-player {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-numbers {
+    width: 63px;
+    height: 60px;
+    margin-left: 8px;
+    background-image: url(../../Assets/ImgAbout/info.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info-numbers p {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16.788px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+
+.name-player {
+    width: 100%;
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 1.375px 13.75px rgba(0, 0, 0, 0.50);
+    font-family: Lemonada;
+    font-size: 28.001px;
+    font-style: normal;
+    font-weight: 380;
+    line-height: normal;
+}
+
+/* End Design Players Page  */
+
+/* Design Page Strtegy  */
+.strategy {
+    width: 100%;
+    height: 1435px;
+    margin-top: 40px;
+    background-color: #FAFAFA;
+    padding: 0;
+}
+
+.strategy .row-strategy {
+    height: 1435px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.strategy h2 {
+    color: var(--orange-logo, #F60);
+    font-family: Cairo;
+    margin-top: 70px;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    height: 100px;
+}
+
+.line {
+    margin-top: 10px;
+    width: 100%;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.line::before {
+    content: "";
+    position: absolute;
+    width: 350px;
+    height: 10px;
+    background-color: var(--orangeColor);
+    left: 33%;
+    border-radius: 12px;
+}
+
+.line::after {
+    content: "";
+    position: absolute;
+    right: 34%;
+    width: 161px;
+    height: 10px;
+    background-color: var(--thirdColor);
+    border-radius: 12px;
+}
+
+.goals {
+    width: 100%;
+    height: 1100px;
+    padding: 0 30px;
+    margin: 0;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    /* margin: 70px 20px 0px 30px; */
+    background: #F5F5F5;
+    box-shadow: 11px 13px 38.1px 0px rgba(0, 0, 0, 0.25);
+    height: 36%;
+    width: 45%;
+    border: 14px solid var(--orangeColor);
+    border-width: 14px 0 0 14px;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    text-align: end;
+    flex-direction: column;
+}
+
+.box::after {
+    content: "";
+    width: 14px;
+    height: 33px;
+    position: absolute;
+    left: -13.5px;
+    bottom: -7px;
+    background-color: var(--orangeColor);
+    border-radius: 12px;
+}
+
+.box::before {
+    content: "";
+    width: 12.5px;
+    height: 32px;
+    background-color: var(--orangeColor);
+    border-radius: 12px;
+    position: absolute;
+    right: 3px;
+    top: -22.560px;
+    transform: rotateZ(90deg);
+}
+
+.number {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+}
+
+.img-number {
+    width: 203px;
+    height: 203px;
+    background-image: url(../../Assets/ImgAbout/Ellipse\ 53.svg);
+    background-repeat: no-repeat;
+    background-position: center -47px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    top: -105px;
+    left: 40px;
+    border-radius: 50%;
+    stroke: var(--orange-logo, #F60);
+    filter: drop-shadow(0px 9px 39.7px rgba(255, 102, 0, 0.25));
+}
+
+.img-number #num {
+    color: var(--background, #FEFEFE);
+    text-align: center;
+    font-family: Cairo;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* padding-left: 0 20px 0 20px; */
+}
+
+.box div h5 {
+    margin-top: 15 0 0 0px;
+    padding-right: 10px;
+    color: #1C1A18;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+}
+
+.box p {
+    color: var(--dark, #3C3732);
+    text-align: right;
+    /* العنوان 9 كايرو 38 */
+    font-family: Cairo;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0 20px 0 20px;
+}
+
+.one-strategy {
+    margin: 70px 0px 0 50px;
+}
+
+.seconed-strategy {
+    margin: 150px 0px 0 0px;
+}
+
+.three-strategy {
+    margin: -75px 0px 0 12px;
+}
+
+.four-strategy {
+    margin: 40px 60px 0 0px;
+}
+
+#list {
+    width: 100%;
+    height: 100%;
+
+}
+
+#list ul {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    flex-wrap: wrap;
+    direction: rtl;
+}
+
+#tall-words ul {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    flex-wrap: wrap;
+    direction: rtl;
+}
+
+#list ul li {
+    list-style-type: none;
+    color: var(--dark, #3C3732);
+    text-align: right;
+    width: 38%;
+    /* العنوان 9 كايرو 38 */
+    font-family: Cairo;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 20px;
+}
+
+
+#tall-words ul li {
+    width: fit-content;
+    list-style-type: none;
+    color: var(--dark, #3C3732);
+    text-align: right;
+    /* العنوان 9 كايرو 38 */
+    font-family: Cairo;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 20px;
+}
+
+
+/* End Design Stratrgy */
+
+/* Start Design Fans  */
+.nadi-fans {
+    width: 100%;
+    height: 500vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nadi-fans .row-About {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nadi-fans h2 {
+    text-align: center;
+    color: #F60;
+    font-size: 40px;
+    color: var(--orange-logo, #F60);
+    font-family: Cairo;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+
+.all-parts {
+    width: 80%;
+    height: 95%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    padding: 0;
+}
+
+.all-parts .p1 {
+    background-image: url(../../Assets/ImgAbout/Group\ 15.png);
+    width: 100%;
+    height: 1100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 14px;
+}
+
+.p3 .top-part2 h3 {
+    color: #363C32;
+    font-family: Cairo;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.p3-About .top-part2 {
+    width: 95%;
+    margin-right: 10px;
+}
+
+.p3-About {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.p2 .top-part2 h3 {
+    color: #363C32;
+    font-family: Cairo;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.top-part2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    margin-right: 30px;
+    position: relative;
+}
+
+.top-part2 .line {
+    /* transform: translateX(200px); */
+    width: 520px;
+    position: absolute;
+    bottom: 0;
+    right: 2%;
+}
+
+.top-part2 .line::after {
+    content: "";
+    position: absolute;
+    right: -5%;
+    width: 28%;
+    height: 10px;
+    background-color: var(--thirdColor);
+    border-radius: 12px;
+}
+
+.top-part2 .line::before {
+    content: "";
+    position: absolute;
+    width: 72%;
+    height: 10px;
+    background-color: var(--orangeColor);
+    border-radius: 12px;
+    /* right: 52%; */
+}
+
+.all-parts p {
+    color: #363C32;
+    text-align: right;
+    font-family: Cairo;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.p2 {
+    margin-top: 30px;
+}
+
+.p2 p {
+    text-align: right;
+    display: flex;
+    justify-content: right;
+    padding: 30px;
+}
+
+.all-parts .table {
+    width: 85%;
+    height: 100%;
+    background-color: #194E95;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 91px;
+    margin-top: 50px;
+}
+
+.all-parts .table .hr {
+    width: 90%;
+    height: 2px;
+    background-color: #FEFEFE
+}
+
+.all-parts .table .orange-circle {
+    width: 27px;
+    height: 27px;
+    background-color: #F60;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.all-parts .table h2 {
+    color: #FEFEFE;
+    background-color: transparent;
+}
+
+.oo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding-top: 15px;
+    height: 100px;
+}
+
+.ora {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.log {
+    display: flex;
+    justify-content: flex-start;
+    /* margin-left: 50px; */
+    transform: translateX(150px);
+    background-image: url(../../Assets/ImgAbout/sticker\ 2.png);
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+
+.left-t,
+.right-t {
+    margin-left: 20px;
+}
+
+.fa {
+    display: flex;
+}
+
+.table>:not(caption)>*>* {
+    background-color: inherit;
+}
+
+.nadi-fans h3 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.all-parts .p4 {
+    margin-top: 50px;
+    height: 46%;
+}
+
+.p4 .top-part3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.top-part3 .line {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    /* right: 10%; */
+}
+
+.top-part3 .line::after {
+    content: "";
+    width: 20%;
+    position: absolute;
+    height: 10px;
+    background-color: var(--thirdColor);
+    border-radius: 12px;
+    right: 170px;
+}
+
+.top-part3 .line::before {
+    content: "";
+    position: absolute;
+    width: 71%;
+    height: 10px;
+    background-color: var(--orangeColor);
+    border-radius: 12px;
+    left: 150px;
+}
+
+.results-video {
+    width: 100%;
+    height: 100%;
+}
+
+.row-rr {
+    height: 720px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.row-rr .rr1 {
+    height: 31%;
+    transform: translateY(-20px);
+}
+
+.row-rr .rr2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rr2 {
+    width: 30%;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.im1 {
+    position: relative;
+    width: 100%;
+    height: 30% !important;
+
+}
+
+.im2 {
+    background-color: red;
+}
+
+.bt {
+    position: absolute;
+    width: 50px;
+    height: 150px;
+    margin-right: 80px;
+}
+
+.right-t h2 {
+    font-size: 42px;
+    padding: 0;
+    padding-top: -40px;
+    line-height: 50px;
+}
+
+.left-t h2 {
+    font-size: 42px;
+    padding: 0;
+    padding-top: -40px;
+    line-height: 50px;
+}
+
+/* End Design Fans */
+
+
+
+/* Start Animation  */
+
+@keyframes hidden-show {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes not-hidden-show {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+/* End Animation  */

@@ -1,0 +1,234 @@
+/* Start Contact Page */
+.contact {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../../Assets/ImgContact/back.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    background-position: left left;
+    /* background-repeat: no-repeat; */
+
+}
+
+.blur {
+
+    width: 70%;
+    height: 100%;
+    background: #122A8ACC;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-family: Dubai;
+}
+
+.cu {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.hh {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+
+}
+
+.inputGroup {
+
+    width: 70%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.star {
+    border: none;
+    background-color: inherit;
+    width: 400px;
+    height: 40px;
+    padding: 0px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.in {
+    background-color: inherit;
+    border: 1px solid #CAD8DB;
+    width: 100%;
+    width: 400px;
+    height: 40px;
+    color: white;
+    /* padding-top: 13px; */
+    border-radius: 10px;
+}
+
+.in::placeholder {
+    padding-right: 10px;
+}
+
+.star::before {
+    content: "*";
+    color: red;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 0;
+    right: 42px;
+}
+
+
+.ein {
+    border: 1px solid #CAD8DB;
+    background-color: inherit;
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.ta {
+    padding: 10px;
+    border: 1px solid #CAD8DB;
+    background-color: inherit;
+    width: 400px;
+    height: 90px;
+    border-radius: 10px;
+}
+
+.sub {
+    border: 1px solid #CAD8DB;
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    color: #122A8A;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hh image {
+    width: 250px;
+    height: 290px;
+}
+
+
+.lo {
+    display: flex;
+    width: 545px;
+    align-items: flex-start;
+    gap: 40px;
+    justify-content: space-around;
+    color: #CAD8DB;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    /* 153.846% */
+    letter-spacing: 0.26px;
+}
+
+.email,
+.phone,
+.location {
+    width: 300px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.alk-email {
+    color: #CAD8DB;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.26px;
+}
+
+.phoneNumber {
+    color: #EB6B18;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.26px;
+}
+
+.loc {
+    display: flex;
+}
+
+.homs {
+    color: #CAD8DB;
+    font-family: Inter;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.location img,
+.email img,
+.phone img {
+    width: 28px;
+    height: 28px;
+}
+
+.loc p {
+    width: 300px;
+}
+
+.con {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lineGroup {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 34px;
+    height: 100%;
+}
+
+.line1 {
+    width: 1px;
+    height: 150px;
+    background-color: #CAD8DB;
+
+}
+
+.line2 {
+    width: 1px;
+    height: 300px;
+    background-color: #CAD8DB;
+}
+
+/* End Contact Page */

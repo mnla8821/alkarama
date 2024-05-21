@@ -1,0 +1,324 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+:root {
+    --blue--: #10278F;
+    --orange--: #FF6600;
+    --grey--: #2C2C2C;
+    --black--: #171717;
+}
+
+.row-Matches {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Design  Match  */
+.matchs {
+    width: 100%;
+    height: 475px;
+    background-image: url(../../Assets/ImgMatches/main.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.matchs h1 {
+    color: white;
+    font-size: 90px;
+    font-weight: 700;
+}
+
+.result-Matches {
+    width: 100%;
+    height: 254px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.result-Matches .res-Matches {
+    width: 254px;
+    height: 254px;
+    background-color: var(--orange--);
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.result-Matches .blue-Matches {
+    width: 100%;
+    height: 40px;
+    background-color: var(--blue--);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.result-Matches .imgs-Matches {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.imgs-Matches .img1-Matches,
+.imgs-Matches .img2-Matches {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img1-Matches img,
+.img2-Matches img {
+    width: 120px;
+    height: 120px;
+}
+
+.imgs-Matches .team-name-Matches {
+    color: var(--blue--);
+}
+
+.search-Matches {
+    width: 100%;
+    height: 1165px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-inline: 20px;
+    background-color: rgb(229, 231, 233);
+}
+
+.parent-Matches {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    background-color: #222222;
+    margin-bottom: 20px;
+}
+
+.search-window-Matches {
+    width: 90%;
+    height: 100%;
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.input-Matches {
+    /* width: 80%; */
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 50px;
+    background-color: var(--grey--);
+    border: 5px solid var(--grey--);
+}
+
+.input-Matches .search-signal-Matches img {
+    width: 26px;
+    height: 26px;
+    /* margin-left: 10px; */
+}
+
+.form-control-Matches::placeholder {
+    color: white;
+    font-size: 21px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.input-Matches .form-control-Matches {
+    width: 850px;
+    height: 100%;
+    color: white;
+    background-color: var(--grey--);
+    border: none;
+    text-align: center;
+}
+
+.match-time-Matches {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.match-time-Matches div {
+    width: 168px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--grey--);
+    color: white;
+}
+
+.match-time-Matches div p {
+    font-size: 26px;
+    margin: 0;
+    padding: 1px 0 0 0;
+}
+
+.match-time-Matches .watch-all-Matches {
+    width: 172px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 2px solid var(--orange--);
+}
+
+.match-time-Matches .today {
+    border: 2px solid var(--orange--);
+    color: var(--orange--);
+}
+
+.competition {
+    width: 100%;
+    height: 310px;
+    margin-top: 100px;
+}
+
+.team-name-Matches+h3 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.heros-Matches {
+    width: 100%;
+    height: 62px;
+    background-color: black;
+    color: white;
+    margin: 0 0;
+}
+
+.heros-Matches .map-Matches {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 22px;
+}
+
+.heros-Matches .quarter-Matches {
+    height: 100%;
+    color: #808080;
+    font-size: 21px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.gray-Matches {
+    width: 100%;
+    height: 90px;
+    background-color: var(--grey--);
+    color: white;
+}
+
+.gray-Matches img {
+    width: 33px;
+    height: 34px;
+}
+
+/* .live {
+    width: ;
+} */
+
+.gray-Matches .against-Matches {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.gray-Matches .karama-Matches,
+.gray-Matches .wathba-Matches {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.gray-Matches .live-Matches p {
+    color: var(--orange--);
+    font-size: 25px;
+    margin: 20px 0 0 20px;
+}
+
+.res-num-Matches {
+    text-align: center;
+}
+
+.gray-Matches .hour-Matches p {
+    color: white;
+    font-size: 20px;
+    margin: 20px 0 0 20px;
+}
+
+.gray-2-Matches {
+    width: 100%;
+    height: 90px;
+    background-color: var(--black--);
+    color: white;
+}
+
+.gray-2-Matches img {
+    width: 33px;
+    height: 34px;
+}
+
+.gray-2-Matches .against-Matches {
+    display: flex;
+    flex-direction: row;
+    justify-content: fl;
+    align-items: center;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.gray-2-Matches .karama-Matches,
+.gray-2-Matches .wathba-Matches {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.gray-2-Matches .live-Matches p {
+    color: var(--orange--);
+    font-size: 25px;
+    margin: 20px 0 0 20px;
+}
+
+.gray-2-Matches .hour-Matches p {
+    color: white;
+    font-size: 20px;
+    margin: 20px 0 0 20px;
+}

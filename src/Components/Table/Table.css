@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+/* Start Design Table */
+.table-match {
+    width: 100%;
+    height: 300px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-p {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.table-match table {
+    width: 90%;
+    height: 80%;
+}
+
+.table-match thead {
+    background-color: var(--blue--);
+    color: white;
+    font-size: 28px;
+}
+
+.table-match thead .team {
+    padding-left: 500px;
+    text-align: right;
+}
+
+.table-match tbody td {
+    font-size: 24px;
+}
+
+.img-of-table {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* End DEsign Table  */

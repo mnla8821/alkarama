@@ -1,0 +1,38 @@
+.header {
+    height: 10vh;
+}
+
+/* Global Variable  */
+:root {
+    --orangeColor: #F60;
+    --seconedColor: #FFF;
+    --thirdColor: #10278F;
+}
+
+/* Design the navbar  */
+.navbar {
+    background-color: var(--seconedColor);
+    padding-right: 150px;
+}
+
+.active {
+    color: var(--orangeColor);
+}
+
+.navbar-nav li a {
+    color: var(--thirdColor);
+    font-family: Cairo;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-inline: 32px;
+}
+
+.logo {
+    margin-left: 3%;
+}
+
+.navbar-nav {
+    margin-right: 3%;
+}
